@@ -1,0 +1,131 @@
+
+
+//variables
+$headcolor: yellow;
+$textcolor: lightgoldenrodyellow;
+$backgroundcolor: mediumblue;
+
+//This is for background moving
+h1{color: $headcolor;
+text-align: center;
+font-size: 100px;}
+ h1, h2, h3, h4 {font-family: 'Press Start 2P', cursive;
+padding: 10px 10px 10px 10px;}
+   p, li {font-family: 'Roboto Condensed', sans-serif;} 
+
+//This is for a scroll bar
+body::-webkit-scrollbar {
+    width: 1em;
+    
+
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px mediumblue;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: $headcolor;
+  outline: 1px solid black;
+}
+
+//end
+
+//navigation bar
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $backgroundcolor;
+    
+    li{
+        display: block;
+        float: left;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration:  none;
+        width: 60px;
+        background-color: $backgroundcolor;
+        color: $textcolor;
+    }
+    
+    li:hover{
+        background-color: midnightblue;
+        color: $headcolor;
+    }
+}
+
+//Moving Banner
+
+marquee{
+    color: yellow; 
+background-color: $backgroundcolor;
+font-family: 'Press Start 2P', cursive;
+height: 30px;
+    font-size: 28px;
+    padding: 10px 10px;
+    margin: 20px 0px 20px 0px;
+    
+}
+
+
+//About Section
+
+.About{
+    h1, h2, h3, h4{
+        color: $headcolor;
+    }
+    p{
+        color: $textcolor;
+        text-align: center;
+    }
+    li{
+        color: $textcolor;
+        text-align: center;
+    }
+}
+
+
+//Champion Section
+.Champions{
+        h1, h2, h3, h4{
+            color: $headcolor;
+        }
+        p{
+            color: $textcolor;
+            background-color:$backgroundcolor;
+            text-align: left;
+        }
+    input{
+        
+    }
+}
+
+//More Section
+.More{
+     h1, h2, h3, h4{
+            color: $headcolor;
+        }
+        p{
+            color: $textcolor;
+            background-color: $backgroundcolor;
+            text-align: center;
+        }
+}
+
+//background
+
+html, body {
+	background: #2b2b2b;
+	margin: 0;
+}
+
+
+
+//buff
+
+.buff{
+    height: 100px;
+}
+
